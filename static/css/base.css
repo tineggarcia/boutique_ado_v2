@@ -11,7 +11,6 @@ body {
 
 }
 
-
 /* from Bulma */
 .icon {
     align-items: center;
@@ -38,6 +37,12 @@ body {
 .btn-black {
     background: black;
     color: white;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important; /* use important to override link colors for <a> elements */
+    border: 1px solid black; 
 }
 
 .shop-now-button:hover,
